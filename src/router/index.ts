@@ -56,6 +56,16 @@ const routes: Array<RouteRecordRaw> = [
     path: '/tooltip',
     name: 'Tooltip',
     component: () => import('../components/Tooltip.vue')
+  },
+  {
+    path: '/table',
+    name: 'Table',
+    component: () => import('../components/Table.vue')
+  },
+  {
+    path: '/loading',
+    name: 'Loading',
+    component: () => import('../components/Loading.vue')
   }
 ]
 

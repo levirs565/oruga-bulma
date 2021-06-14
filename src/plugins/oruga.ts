@@ -238,4 +238,10 @@ export const bulmaConfig: any = {
         outlinedClass: () => 'is-outlined',
         invertedClass: () => 'is-inverted'
     },
+    loading: {
+        override: true,
+        rootClass: 'loading-overlay is-active',
+        overlayClass: 'loading-background',
+        iconClass: 'loading-icon'
+    }
 }
